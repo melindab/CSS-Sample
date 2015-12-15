@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Lisa Green",
+    "username": "lgreen",
+    "email": "lgreen@gmail.com",
+    "address": {
+      "street": "1234 Park Ave",
+      "suite": "Suite 1",
+      "city": "Oak Brook",
+      "state": "NJ",
+      "zipcode": "12345-1234"
+    },
+    "phone": "",
+    "website": "lisagreen.org"
+  },
+  {
+    "id": 2,
+    "name": "Erin Hope",
+    "username": "hhope",
+    "email": "hhope@gmail.com",
+    "address": {
+      "street": "3578 Oak Street",
+      "suite": "Apt. 4B",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "12345-1234"
+    },
+    "phone": "555-398-0202 x591",
+    "website": "hhope.net"
+  },
+  {
+    "id": 3,
+    "name": "Chrissy Beach",
+    "username": "cbeach",
+    "email": "cbeach@gmail.com",
+    "address": {
+      "street": "1111 Michigan Ave",
+      "suite": "Suite 323",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "12345-1234"
+    },
+    "phone": "",
+    "website": "cbeach.com"
+  },
+  {
+    "id": 4,
+    "name": "Maria Chavez",
+    "username": "mchavez",
+    "email": "mchavez@gmail.com",
+    "address": {
+      "street": "9292 Hall Road",
+      "suite": "Apt. 47B",
+      "city": "Northbrook",
+      "state": "CA",
+      "zipcode": "12345-1234"
+    },
+    "phone": "555-298-7777 x382",
+    "website": "mchavez.com"
+  },
+  {
+    "id": 5,
+    "name": "Chris Johnson",
+    "username": "cjohnson",
+    "email": "cjohnson@gmail.com",
+    "address": {
+      "street": "5678 Apple Ave",
+      "suite": "Apt. 6",
+      "city": "Wheeling",
+      "state": "MO",
+      "zipcode": "12345-1234"
+    },
+    "phone": "(555)312-4290",
+    "website": "cjohnson.com"
+  },
+  {
+    "id": 6,
+    "name": "Mr. James Smith",
+    "username": "jsmith",
+    "email": "jsmith@gmail.com",
+    "address": {
+      "street": "2419 Malibu Canyon Road",
+      "suite": "Apt. 78",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "12345-1234"
+    },
+    "phone": "",
+    "website": "jsmith.org"
+  },
+  {
+    "id": 7,
+    "name": "Kami West",
+    "username": "kwest",
+    "email": "kwest@gmail.com",
+    "address": {
+      "street": "8472 Crest Avenue",
+      "suite": "Suite 4",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "12345-1234"
+    },
+    "phone": "555.970.7856",
+    "website": "kwest.io"
+  },
+  {
+    "id": 8,
+    "name": "Robert Vanderbilt III",
+    "username": "rvanderbilt",
+    "email": "rvanderbilt@gmail.com",
+    "address": {
+      "street": "87 Park Way",
+      "suite": "Suite 673",
+      "city": "Evanston",
+      "state": "OH",
+      "zipcode": "12345-1234"
+    },
+    "phone": "555.577.0242",
+    "website": "rvanderbilt.com"
+  },
+  {
+    "id": 9,
+    "name": "Jenny Ramos",
+    "username": "jramos",
+    "email": "jramos@gmail.com",
+    "address": {
+      "street": "670 Randolph Street",
+      "suite": "Apt. 28",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "12345-1234"
+    },
+    "phone": "(555)312-9162 x12345",
+    "website": "jramos.com"
+  }
+]

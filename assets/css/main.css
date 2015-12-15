@@ -1,0 +1,223 @@
+/* ===================== CSS RESET ====================== */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Melinda Budde's CSS */
+
+/* ======================== LAYOUT ======================== */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #009688;
+  height: 65px;
+  display: table;
+  width: 100%;
+}
+
+h1 {
+  display: table-cell;
+  vertical-align: middle
+}
+
+/* ===================== TYPOGRAPHY ===================== */
+
+body {
+  font: 300 1em/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 1.4em;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+small {
+  font-size: .6em;
+  margin-left: 20px;
+}
+
+td {
+  font-size: .8em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.col-1 {
+  font-weight: 400;
+  color: white;
+}
+
+/* ======================= TABLES ======================= */
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+tr {
+  width: 100%;
+}
+
+td {
+  padding: 5px 6px;
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col-1 {
+  width: 30%;
+  min-width: 90px;
+  background-color: #80cbc4;
+  border-bottom: 2px solid white;
+}
+
+.col-2 {
+  width: 60%;
+}
+
+.col-3 {
+  width: 10%;
+}
+
+/* ======================= CLASSES ======================= */
+
+.container {
+  margin: 20px;
+}
+
+.group {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.tile {
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.tile:last-child {
+  border-bottom: 0;
+}
+
+.expanded {
+  background-color: #f5f5f5;
+  border-bottom: 2px solid white;
+}
+
+.phone {
+  text-align: right;
+  color: #9c27b0;
+}
+
+/* =================== MEDIA QUERIES =================== */
+
+/* For all screens except phones */
+@media all and (min-width: 420px) {
+  .tile {
+    width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+  }
+
+  td {
+    font-size: 1em;
+  }
+
+  .col-1 {
+    width: 25%;
+  }
+
+  .col-2 {
+    width: 65%;
+  }
+
+  .col-3 {
+    width: 10%;
+  }
+}
+
+/* For phones and tablets only */
+@media all and (min-width: 961px) {
+  header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+
+  .container {
+    margin-top: 85px;
+  }
+}

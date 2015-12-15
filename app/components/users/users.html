@@ -1,0 +1,35 @@
+<div class="group">
+  <table ng-repeat="user in data.users | orderBy:sortByLastName" ng-click="toggleUser(user)" class="tile">
+    <tr>
+      <td class="col-1">Name:</td>
+      <td class="col-2">{{ user.name }}</td>
+      <td class="col-3 phone">{{ user.phone ? "&#9742;" : "" }}</td>
+    </tr>
+
+    <tr>
+      <td class="col-1">Email:</td>
+      <td class="col-2">{{ user.email }}</td>
+    </tr>
+
+    <tr ng-show="showRow(user, user.phone)">
+      <td class="col-1">Phone:</td>
+      <td class="col-2 expanded" colspan="2">{{ user.phone | formatPhone }}</td>
+    </tr>
+
+    <tr ng-show="showRow(user, user.username)">
+      <td class="col-1">Username:</td>
+      <td class="col-2 expanded" colspan="2">{{ user.username }}</td>
+    </tr>
+
+    <tr ng-show="showRow(user, user.website)">
+      <td class="col-1">Website:</td>
+      <td class="col-2 expanded" colspan="2">{{ user.website }}</td>
+    </tr>
+
+    <tr ng-show="showRow(user, true)">
+      <td class="col-1">Address:</td>
+      <td class="col-2 expanded" colspan="2">{{ user.address.street }}, {{ user.address.suite }}
+      <br> {{ user.address.city }}, {{ user.address.state }} {{ user.address.zipcode }}</td>
+    </tr>
+  </table>
+</div>
